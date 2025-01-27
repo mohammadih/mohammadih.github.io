@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+# title: 吳健雄
 
 # Name pronunciation (optional)
 name_pronunciation: Hossein Mohammadi
@@ -58,7 +58,7 @@ interests:
 education:
   - area: PhD-Electrical and Electronics Engineering-Digital Communication Systems
     institution: Mississippi State University
-    date_start: 05-10-2021
+    date_start: 2021-05-10
     date_end: Current
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
