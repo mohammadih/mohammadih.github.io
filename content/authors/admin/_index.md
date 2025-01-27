@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+# title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Hossein Mohammadi
 
 # Full name (for SEO)
 first_name: Hossein
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Graduate Research Assistant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Mississippi State University
+    url: https://www.ece.msstate.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,15 +47,19 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Artificial Intelligence and its application in Digital Communication Systems
+  - Digital Communication Systems
+  - Wireless communications and systems
+  - Computation aspects of MIMO, Multiuser MIMO and massive MIMO for 5G
+  - Millimeter wave (mm-Wave) communications
+  - Machine Learning
+  - Internet of Things (IoT)
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD-Electrical and Electronics Engineering-Digital Communication Systems
+    institution: Mississippi State University
+    date_start: 05-10-2021
+    date_end: Current
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
