@@ -31,20 +31,22 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:h.mohammadi1992@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  # - icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/hmohammadi_photos/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/mohammadih
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: linkedin.com/in/hossein-mohammadi-a14722b3
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=-XJ86EAAAAAJ&hl=en
+  - icon: brands/researchgate
+    url: https://www.researchgate.net/profile/Hossein-Mohammadi-16?ev=hdr_xprf
+ # - icon: academicons/orcid
+  #  url: https://orcid.org/
 
 interests:
   - Artificial Intelligence and its application in Digital Communication Systems
@@ -187,4 +189,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hossein Mohammadi is a PhD candidate in Electrical Engineering with a minor in Computer Science at Mississippi State University. His research focuses on AI-assisted network management in O-RAN architectures for 6G non-terrestrial networks, leveraging federated learning to enhance network slicing and resource allocation. With expertise in wireless communications, machine learning, and MIMO systems, he has contributed to multiple IEEE publications. Hossein combines a strong foundation in communication systems with innovative AI approaches to tackle the challenges of next-generation networks.
