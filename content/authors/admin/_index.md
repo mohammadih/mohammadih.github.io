@@ -68,7 +68,7 @@ education:
   - area: M.Sc. Electrical Engineering-Digital Communication Systems
     institution: University of Tehran
     date_start: 2016-09-01
-    date_end: 2018-09-31
+    date_end: 2018-09-30
     summary: |
      # GPA: 3.8/4.0
 
