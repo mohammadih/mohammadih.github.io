@@ -35,11 +35,17 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a Ph.D. researcher specializing in Artificial Intelligence (AI) and its applications in wireless communication systems. My work focuses on advancing the integration of AI with cutting-edge technologies such as 5G and beyond, aiming to revolutionize network efficiency and performance.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research interests include:
+          - AI-driven network slicing in O-RAN architectures.
+          - Applying machine learning to enhance the reliability of communication systems, such as MIMO and mm-Wave technologies.
+          - Exploring federated learning for distributed resource management in 6G networks.
+          - Leveraging deep reinforcement learning to optimize resource allocation or power management to enhance network quality of service (QoS).
+          - Developing robust strategies to mitigate interference and improve security in modern wireless systems.
         
-        Please reach out to collaborate 😃
+        I am passionate about pushing the boundaries of communication technologies by bridging AI and wireless communication. Let's collaborate to innovate and shape the future of connectivity! 😊
+
     design:
       columns: '1'
   - block: collection
