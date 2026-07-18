@@ -1,131 +1,140 @@
 ---
-# Leave the homepage title empty to use the site title
+# Leave the homepage title empty to use the site title.
 title: ""
-date: 2022-10-24
+date: 2026-07-18
 type: landing
+summary: Personal research website of Hossein Mohammadi, focused on AI-assisted O-RAN, 6G non-terrestrial networks, wireless resource management, and intelligent radio systems.
 
 design:
-  # Default section spacing
-  spacing: "6rem"
+  spacing: "5rem"
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Hossein_Summarized_CV.pdf
+        url: /uploads/Hossein_Summarized_CV.pdf
     design:
       css_class: dark
       background:
-        color: black
+        color: '#0f172a'
         image:
-          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.8
           size: cover
           position: center
           parallax: false
+
   - block: markdown
+    id: research
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: Research Focus
       text: |-
-        I am a Ph.D. researcher specializing in Artificial Intelligence (AI) and its applications in wireless communication systems. My work focuses on advancing the integration of AI with cutting-edge technologies such as 5G and beyond, aiming to revolutionize network efficiency and performance.
+        My research examines how artificial intelligence and machine learning can improve the adaptability, reliability, and efficiency of wireless communication systems.
 
-        My research interests include:
-          - AI-driven network slicing in O-RAN architectures.
-          - Applying machine learning to enhance the reliability of communication systems, such as MIMO and mm-Wave technologies.
-          - Exploring federated learning for distributed resource management in 6G networks.
-          - Leveraging deep reinforcement learning to optimize resource allocation or power management to enhance network quality of service (QoS).
-          - Developing robust strategies to mitigate interference and improve security in modern wireless systems.
-        
-        I am passionate about pushing the boundaries of communication technologies by bridging AI and wireless communication. Let's collaborate to innovate and shape the future of connectivity! 😊
-
+        - AI/ML for wireless communication systems and radio transceivers
+        - O-RAN and AI-assisted network slicing
+        - 6G non-terrestrial networks
+        - Federated learning and distributed resource management
+        - Deep reinforcement learning for wireless optimization
+        - MIMO, multiuser MIMO, and massive MIMO
+        - Spectrum coexistence and interference mitigation
+        - Millimeter-wave communication and wireless security
     design:
       columns: '1'
-  - block: collection
-    id: papers
+
+  - block: markdown
+    id: research-experience
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      title: Research Experience Highlights
+      text: |-
+        ### Mississippi State University · Graduate Research Assistant · 2021–Present
+
+        - AI-assisted network and resource management, federated learning, and network slicing for O-RAN and 6G systems
+        - AI-driven demodulation and MLP-based self-interference mitigation under receiver nonlinearities and high-power blockers
+        - Reinforcement-learning-based aerial radio-unit trajectory analysis and DRL-based RFI mitigation for passive radiometry
+        - 5G security experimentation using multipath communication and srsRAN
+
+        ### University of Tehran · Graduate Researcher · 2016–2019
+
+        - In-band full-duplex self-interference management and modulation-performance analysis
+        - Signal-processing studies involving sampling, windowing, power spectral density, adaptive beamforming, STBC, and MIMO simulation
+        - Neural-network applications in wireless communication
+
+        [View full research experience](/experience/)
     design:
-      view: article-grid
-      columns: 2
-  - block: collection
+      columns: '1'
+
+  - block: markdown
+    id: capabilities
     content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
+      title: Technical Capabilities
+      text: |-
+        **Programming:** Python · MATLAB · C++
+
+        **AI and machine learning:** Machine learning · Deep learning · Multi-layer perceptrons · Deep reinforcement learning · Federated learning
+
+        **Wireless and communication systems:** O-RAN · Network slicing · MIMO and massive MIMO · Adaptive beamforming · Signal processing · Spectrum coexistence · Interference mitigation · Wireless resource allocation
+
+        **SDR and networking tools:** srsRAN · GNU Radio · Wireshark
+
+        **Scientific and documentation tools:** LaTeX · Git · Linux · Adobe Illustrator · Adobe Lightroom · Adobe Photoshop
     design:
-      view: citation
-  - block: collection
-    id: talks
+      columns: '1'
+
+  - block: resume-awards
+    id: awards
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
+      title: Selected Awards and Distinctions
+      username: admin
     design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
+      date_format: '2006'
+
+  - block: markdown
+    id: teaching
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      title: Teaching
+      text: |-
+        ### Graduate Teaching Assistant · University of Tehran
+
+        **Random Variables and Stochastic Processes**
+
+        Led weekly instructional sessions and prepared problem sets to support student learning.
+
+        [View teaching experience](/teaching/)
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
+      columns: '1'
+
+  - block: markdown
+    id: contact
+    content:
+      title: Contact and CV
+      text: |-
+        For research and professional inquiries, contact me at [hmohammadi.phycom@gmail.com](mailto:hmohammadi.phycom@gmail.com). Academic correspondence may also be sent to [hm1125@msstate.edu](mailto:hm1125@msstate.edu).
+    design:
+      columns: '1'
       spacing:
         padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+
+  - block: cta-button-list
     content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      buttons:
+        - text: Download CV
+          url: /uploads/Hossein_Summarized_CV.pdf
+          icon: document-arrow-down
+        - text: Google Scholar
+          url: https://scholar.google.com/citations?user=-XJ86EAAAAAJ&hl=en
+          icon: brands/google-scholar
+        - text: LinkedIn
+          url: https://www.linkedin.com/in/hossein-mohammadi-a14722b3
+          icon: brands/linkedin
+        - text: Email
+          url: mailto:hmohammadi.phycom@gmail.com
+          icon: envelope
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      spacing:
+        padding: [0, 0, 0, 0]
 ---
