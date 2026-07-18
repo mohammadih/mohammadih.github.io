@@ -1,6 +1,6 @@
 ---
 title: Teaching
-summary: My courses
+summary: Teaching experience in electrical engineering and applied probability.
 type: landing
 
 cascade:
@@ -10,14 +10,16 @@ cascade:
       show_breadcrumb: true
 
 sections:
-  - block: collection
+  - block: markdown
     id: teaching
     content:
-      title: Teaching
-      filters:
-        folders:
-          - teaching
+      title: Graduate Teaching Assistant
+      text: |-
+        **University of Tehran**
+
+        ### Random Variables and Stochastic Processes
+
+        Led weekly instructional sessions and prepared problem sets to support student learning.
     design:
-      view: article-grid
-      columns: 2
+      columns: '1'
 ---

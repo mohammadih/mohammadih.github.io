@@ -6,7 +6,7 @@
 # Website name
 title: Hossein Mohammadi
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://hossein-mohammadi.com/'
 
 ############################
 ## LANGUAGE
@@ -44,8 +44,6 @@ imaging:
 timeout: 600000
 taxonomies:
   author: authors
-  tag: tags
-  publication_type: publication_types
 markup:
   _merge: deep
   highlight:
